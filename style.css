@@ -41,3 +41,8 @@ button:hover {
 	background-color: darkblue;
 	transform: scale(1.03);
 }
+.filters {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
