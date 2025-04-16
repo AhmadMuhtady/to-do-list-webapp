@@ -3,6 +3,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	background-color: whitesmoke;
+	display: flex;
 	justify-content: center;
 	padding-top: 50px;
 }
