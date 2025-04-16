@@ -63,3 +63,10 @@ li.completed {
 	text-decoration: line-through;
 	color: gray;
 }
+.remove-btn {
+	background: none;
+	border: none;
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+}
