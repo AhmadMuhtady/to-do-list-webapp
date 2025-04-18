@@ -22,18 +22,18 @@ h1 {
 	text-align: center;
 	margin-bottom: 20px;
 }
-.input-group {
+.input-container {
 	display: flex;
 	gap: 10px;
 	margin-bottom: 15px;
 }
+
 input[type='text'] {
 	flex: 1;
 	padding: 8px;
 	border: 2px solid, #ccc;
 	border-radius: 4px;
-	margin-bottom: 10px;
-	width: 225px;
+	margin-bottom: 0;
 }
 button {
 	padding: 8px 12px;
