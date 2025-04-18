@@ -10,8 +10,8 @@ body {
 	justify-content: center;
 	padding-top: 50px;
 }
-.container {
-	background: white;
+.container1 {
+	background: rgb(214, 158, 158);
 	padding: 20px 30px;
 	border-radius: 8px;
 	box-shadow: 0 2px 8px cyan;
@@ -22,7 +22,7 @@ h1 {
 	text-align: center;
 	margin-bottom: 20px;
 }
-.input-container {
+.input1 {
 	display: flex;
 	gap: 10px;
 	margin-bottom: 15px;
@@ -38,14 +38,14 @@ input[type='text'] {
 button {
 	padding: 8px 12px;
 	border: none;
-	background-color: dodgerblue;
+	background-color: rgb(142, 91, 223);
 	color: white;
 	border-radius: 4px;
 	cursor: pointer;
 	transition: all 0.2s ease;
 }
 button:hover {
-	background-color: darkblue;
+	background-color: rgb(62, 62, 201);
 	transform: scale(1.03);
 }
 .filters {
@@ -58,7 +58,7 @@ ul {
 	padding: 0;
 }
 li {
-	background: lightslategray;
+	background: rgb(220, 189, 230);
 	padding: 10px;
 	margin-bottom: 8px;
 	border-radius: 4px;
@@ -68,7 +68,11 @@ li {
 }
 li.completed {
 	text-decoration: line-through;
-	color: gray;
+	color: rgb(244, 28, 28);
+}
+
+li:hover {
+	cursor: pointer;
 }
 .remove-btn {
 	background: none;
